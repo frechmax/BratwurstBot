@@ -53,6 +53,7 @@ jobs:
         include_files: |
           index.html
           mensen_data.json
+          bratwurst.jpeg
         commit_message: '🌭 Update Speiseplan - ${{ github.event.head_commit.message }}'
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
