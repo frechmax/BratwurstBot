@@ -15,9 +15,9 @@ import json
 
 # Mensa-URLs
 MENSEN = {
-    "TU Hardenbergstraße": "https://www.stw.berlin/mensen/einrichtungen/technische-universität-berlin/mensa-tu-hardenbergstraße.html",
+    "HU Nord": "https://www.stw.berlin/mensen/einrichtungen/humboldt-universität-zu-berlin/mensa-hu-nord.html",
     "HU Süd": "https://www.stw.berlin/mensen/einrichtungen/humboldt-universität-zu-berlin/mensa-hu-süd.html",
-    "HU Nord": "https://www.stw.berlin/mensen/einrichtungen/humboldt-universität-zu-berlin/mensa-hu-nord.html"
+    "TU Hardenbergstraße": "https://www.stw.berlin/mensen/einrichtungen/technische-universität-berlin/mensa-tu-hardenbergstraße.html",
 }
 
 def setup_driver():
@@ -96,7 +96,20 @@ def scrape_mensa(driver, url, mensa_name, days=14):
                         for meal in meals:
                             gericht_span = meal.find("span", class_="bold")
                             if gericht_span:
-                                gerichte_kategorien[kategorie].append(gericht_span.text.strip())
+                                gericht_name = gericht_span.text.strip()
+                                
+                                # Preis extrahieren (im Format "€ 3,65/7,30/8,40")
+                                preis = ""
+                                preis_div = meal.find("div", class_="text-right")
+                                if preis_div:
+                                    preis_text = preis_div.get_text(strip=True)
+                                    if '€' in preis_text:
+                                        preis = preis_text.split('\n')[0].strip()
+                                
+                                gerichte_kategorien[kategorie].append({
+                                    'name': gericht_name,
+                                    'preis': preis
+                                })
             
             # Nur speichern wenn mindestens ein Gericht gefunden wurde
             if gerichte_kategorien['Aktionen'] or gerichte_kategorien['Essen']:
@@ -133,7 +146,9 @@ def generate_html(all_data):
             # Bratwurst zählen
             all_gerichte = kategorien['Aktionen'] + kategorien['Essen']
             for gericht in all_gerichte:
-                if 'bratwurst' in gericht.lower():
+                # Unterstütze beide Formate: dict und string
+                gericht_name = gericht['name'] if isinstance(gericht, dict) else gericht
+                if 'bratwurst' in gericht_name.lower():
                     bratwurst_count += 1
     
     total_days = len(dates_data)
@@ -333,6 +348,14 @@ def generate_html(all_data):
             line-height: 1.3;
         }}
         
+        .dish .price {{
+            float: right;
+            color: #a3a3a3;
+            font-weight: bold;
+            font-size: 0.85em;
+            margin-left: 8px;
+        }}
+        
         .dish.bratwurst {{
             background: #fff3cd;
             border-left-color: #ff6b6b;
@@ -451,8 +474,9 @@ def generate_html(all_data):
         for mensa in mensen_namen:
             if mensa in dates_data[date_str]:
                 kategorien = dates_data[date_str][mensa]
-                all_dishes_in_row.extend(kategorien['Aktionen'])
-                all_dishes_in_row.extend(kategorien['Essen'])
+                # Gerichte sind jetzt Dicts mit 'name' und 'preis'
+                all_dishes_in_row.extend([g['name'] if isinstance(g, dict) else g for g in kategorien['Aktionen']])
+                all_dishes_in_row.extend([g['name'] if isinstance(g, dict) else g for g in kategorien['Essen']])
         
         search_text = ' '.join(all_dishes_in_row).lower()
         
@@ -469,17 +493,41 @@ def generate_html(all_data):
                 if kategorien['Aktionen']:
                     html += '                                <div class="kategorie-title">Aktionen</div>\n'
                     for gericht in kategorien['Aktionen']:
-                        is_bratwurst = 'bratwurst' in gericht.lower()
+                        # Unterstütze beide Formate: dict und string
+                        if isinstance(gericht, dict):
+                            gericht_name = gericht['name']
+                            gericht_preis = gericht.get('preis', '')
+                        else:
+                            gericht_name = gericht
+                            gericht_preis = ''
+                        
+                        is_bratwurst = 'bratwurst' in gericht_name.lower()
                         css_class = 'dish bratwurst' if is_bratwurst else 'dish'
-                        html += f'                                <div class="{css_class}">{gericht}</div>\n'
+                        
+                        if gericht_preis:
+                            html += f'                                <div class="{css_class}">{gericht_name} <span class="price">{gericht_preis}</span></div>\n'
+                        else:
+                            html += f'                                <div class="{css_class}">{gericht_name}</div>\n'
                 
                 # Essen
                 if kategorien['Essen']:
                     html += '                                <div class="kategorie-title" style="margin-top: 8px;">Essen</div>\n'
                     for gericht in kategorien['Essen']:
-                        is_bratwurst = 'bratwurst' in gericht.lower()
+                        # Unterstütze beide Formate: dict und string
+                        if isinstance(gericht, dict):
+                            gericht_name = gericht['name']
+                            gericht_preis = gericht.get('preis', '')
+                        else:
+                            gericht_name = gericht
+                            gericht_preis = ''
+                        
+                        is_bratwurst = 'bratwurst' in gericht_name.lower()
                         css_class = 'dish bratwurst' if is_bratwurst else 'dish'
-                        html += f'                                <div class="{css_class}">{gericht}</div>\n'
+                        
+                        if gericht_preis:
+                            html += f'                                <div class="{css_class}">{gericht_name} <span class="price">{gericht_preis}</span></div>\n'
+                        else:
+                            html += f'                                <div class="{css_class}">{gericht_name}</div>\n'
                 
                 html += '                            </td>\n'
             else:
@@ -497,7 +545,6 @@ def generate_html(all_data):
         </div>
         
         <footer>
-            <p>🤖 Automatisch generiert mit GitHub Actions</p>
             <p>Daten von www.stw.berlin</p>
         </footer>
     </div>
