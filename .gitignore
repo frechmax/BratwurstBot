@@ -11,8 +11,8 @@ __pycache__/
 .Python
 
 # Scraping outputs (werden von GitHub Actions generiert)
-index.html
-mensen_data.json
+# index.html
+# mensen_data.json
 
 # IDE
 .vscode/
