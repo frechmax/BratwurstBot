@@ -23,23 +23,45 @@ MENSEN = {
 def setup_driver():
     """Konfiguriert Chrome WebDriver für GitHub Actions (headless)"""
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-software-rasterizer")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-background-networking")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    chrome_options.page_load_strategy = 'normal'
+    chrome_options.set_capability('timeouts', {'implicit': 30000, 'pageLoad': 60000, 'script': 60000})
     return webdriver.Chrome(options=chrome_options)
 
 def scrape_mensa(driver, url, mensa_name, days=14):
     """Scrapt Speiseplan einer Mensa für die nächsten 'days' Tage - nur Kategorien Aktionen und Essen"""
     print(f"\n🍽️  Scrape {mensa_name}...")
-    driver.get(url)
+    
+    # Mehrere Versuche mit erhöhtem Timeout
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            driver.set_page_load_timeout(60)
+            driver.get(url)
+            break
+        except Exception as e:
+            print(f"⚠️  Versuch {attempt + 1}/{max_retries} fehlgeschlagen: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(5)
+            else:
+                print(f"❌ Konnte {mensa_name} nach {max_retries} Versuchen nicht laden")
+                return {}
     
     try:
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.ID, "spltag1"))
         )
-    except:
-        print(f"❌ Konnte Speiseplan für {mensa_name} nicht laden")
+    except Exception as e:
+        print(f"❌ Konnte Speiseplan für {mensa_name} nicht laden: {e}")
         return {}
     
     heute = datetime.today()
