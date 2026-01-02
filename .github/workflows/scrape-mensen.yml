@@ -1,0 +1,58 @@
+name: 🌭 Scrape Mensen-Speisepläne
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  
+  # Manuell auslösbar
+  workflow_dispatch:
+  
+  # Bei Push (zum Testen)
+  push:
+    branches: [ main, master ]
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+    - name: 📥 Checkout Repository
+      uses: actions/checkout@v4
+    
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: 📦 Install Dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: 🌐 Setup Chrome
+      uses: browser-actions/setup-chrome@latest
+    
+    - name: 📥 Install ChromeDriver
+      uses: nanasess/setup-chromedriver@v2
+    
+    - name: 🍽️ Scrape Mensen-Daten
+      run: |
+        python scrape_mensen.py
+    
+    - name: 📊 Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        publish_branch: gh-pages
+        keep_files: false
+        include_files: |
+          index.html
+          mensen_data.json
+        commit_message: '🌭 Update Speiseplan - ${{ github.event.head_commit.message }}'
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
