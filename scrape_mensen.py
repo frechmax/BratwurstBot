@@ -321,6 +321,21 @@ def generate_html(all_data):
             content: '🌭 ';
         }}
         
+        .dish.highlight-search {{
+            background: #d4edda;
+            border-left-color: #28a745;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+            transform: scale(1.02);
+            transition: all 0.3s;
+        }}
+        
+        .dish.bratwurst.highlight-search {{
+            background: #ffeb3b;
+            border-left-color: #ff6b6b;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
+        }}
+        
         .empty-cell {{
             color: #adb5bd;
             font-style: italic;
@@ -466,9 +481,10 @@ def generate_html(all_data):
     </div>
     
     <script>
-        // Suchfunktion
+        // Suchfunktion mit Highlighting
         const searchInput = document.getElementById('searchInput');
         const tableRows = document.querySelectorAll('#mensaTable tbody tr');
+        const allDishes = document.querySelectorAll('.dish');
         const noResults = document.getElementById('noResults');
         const tableWrapper = document.querySelector('.table-wrapper');
         
@@ -476,13 +492,32 @@ def generate_html(all_data):
             const searchTerm = this.value.toLowerCase().trim();
             let visibleRows = 0;
             
+            // Entferne alle Highlights
+            allDishes.forEach(dish => {
+                dish.classList.remove('highlight-search');
+            });
+            
             tableRows.forEach(row => {
                 if (searchTerm === '') {
+                    // Keine Suche: Alle Zeilen anzeigen
                     row.classList.remove('hidden');
                     visibleRows++;
                 } else {
-                    const searchText = row.getAttribute('data-search');
-                    if (searchText.includes(searchTerm)) {
+                    // Finde alle Gerichte in dieser Zeile
+                    const dishes = row.querySelectorAll('.dish');
+                    let hasMatch = false;
+                    
+                    dishes.forEach(dish => {
+                        const dishText = dish.textContent.toLowerCase();
+                        if (dishText.includes(searchTerm)) {
+                            // Gericht gefunden: highlighten
+                            dish.classList.add('highlight-search');
+                            hasMatch = true;
+                        }
+                    });
+                    
+                    // Zeile nur anzeigen, wenn mindestens ein Gericht matched
+                    if (hasMatch) {
                         row.classList.remove('hidden');
                         visibleRows++;
                     } else {
