@@ -1,39 +1,5 @@
 {
   "HU Nord": {
-    "2026-03-06": {
-      "Aktionen": [
-        {
-          "name": "Hausgemachte Pasta mit Paprikasauce grüner Pepperoni und veganem Käseschmelz",
-          "preis": "€ 2,95/3,25/3,55"
-        },
-        {
-          "name": "Gemüsepfanne mit frischem Ingwer und gerösteten Erdnüssen auf Duftreis",
-          "preis": "€ 6,95/7,65/8,35"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Seelachsfilet Lemon-Pepper an Curry-Mango-Sauce",
-          "preis": "€ 3,25/6,50/7,50"
-        },
-        {
-          "name": "Weizenpfanne mit Sojastreifen und Möhren-Zucchini Gemüse",
-          "preis": "€ 3,25/6,50/7,50"
-        },
-        {
-          "name": "Drei gefüllte Maultaschen an Champignonsauce",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Buchweizen mit Tomaten Auberginen-Ragout und Linsen",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Sahniger Milchreis mit Zimt, Zucker und Mangosauce",
-          "preis": "€ 1,75/3,50/4,05"
-        }
-      ]
-    },
     "2026-03-10": {
       "Aktionen": [
         {
@@ -563,36 +529,6 @@
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
-    },
-    "2026-04-03": {
-      "Aktionen": [
-        {
-          "name": "Zwei Hausgemachte Kartoffelpuffer, Apfelmus",
-          "preis": "€ 3,95/4,35/4,75"
-        },
-        {
-          "name": "Hausgemachte Dinkel-Pasta mit Tomatensauce und Fetakäse",
-          "preis": "€ 2,95/3,25/3,55"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Wirsing-Kartoffel-Pfanne mit Kapern, Leinsamen und Petersilien-Dip",
-          "preis": "€ 3,55/7,10/8,15"
-        },
-        {
-          "name": "Marinierter Schweinekamm an Rosmarinsauce",
-          "preis": "€ 2,15/4,30/4,95"
-        },
-        {
-          "name": "Zwei gebackene Falafel-Bagel an Kokos-Mango-Sauce",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Kartoffelgulasch mit Paprika und frischer Blattpetersilie",
-          "preis": "€ 1,75/3,50/4,05"
-        }
-      ]
     }
   },
   "HU Süd": {
@@ -601,10 +537,6 @@
         {
           "name": "Pommes Steakhouse Fritten",
           "preis": "€ 1,45/1,60/1,75"
-        },
-        {
-          "name": "1 - Scharfe Chili - Ketchup 2 - Knoblauchmayonaise - vegan 3 - Tomatenketchup",
-          "preis": "€ 0,30/0,60/0,70"
         },
         {
           "name": "Penne rigate mit Getreidebolognese und frischem Basilikum",
@@ -649,10 +581,6 @@
           "preis": "€ 1,45/1,60/1,75"
         },
         {
-          "name": "1 - Scharfe Chili - Ketchup 2 - Knoblauchmayonaise - vegan 3 - Tomatenketchup",
-          "preis": "€ 0,30/0,60/0,70"
-        },
-        {
           "name": "Penne rigate mit Spinatsauce und gerösteten Walnüssen",
           "preis": "€ 2,95/3,25/3,55"
         },
@@ -695,10 +623,6 @@
           "preis": "€ 1,45/1,60/1,75"
         },
         {
-          "name": "1 - Scharfe Chili - Ketchup 2 - Knoblauchmayonaise - vegan 3 - Tomatenketchup",
-          "preis": "€ 0,30/0,60/0,70"
-        },
-        {
           "name": "Penne rigate mit Paprikasauce und grüner Pepperoni",
           "preis": "€ 2,95/3,25/3,55"
         },
@@ -739,10 +663,6 @@
         {
           "name": "Pommes Steakhouse Fritten",
           "preis": "€ 1,45/1,60/1,75"
-        },
-        {
-          "name": "1 - Scharfe Chili - Ketchup 2 - Knoblauchmayonaise - vegan 3 - Tomatenketchup",
-          "preis": "€ 0,30/0,60/0,70"
         },
         {
           "name": "Penne rigate mit Tomatensauce und Fetakäse",
@@ -1273,31 +1193,55 @@
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
-    }
-  },
-  "TU Hardenbergstraße": {
-    "2026-03-07": {
+    },
+    "2026-04-03": {
       "Aktionen": [
         {
-          "name": "Hartkäse gerieben",
+          "name": "Mediterraner Dinkel-Tomaten-Burger im Sesambrötchen mit Paprikacreme",
+          "preis": "€ 5,95/6,55/7,15"
+        },
+        {
+          "name": "Pommes frites",
+          "preis": "€ 1,45/1,60/1,75"
+        },
+        {
+          "name": "Hausgemachte Dinkel-Pasta mit Tomatensauce und Fetakäse",
+          "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Veganer Schmelz gerieben",
           "preis": "€ 0,75/0,85/0,90"
+        },
+        {
+          "name": "geriebener Gouda",
+          "preis": "€ 0,75/0,85/0,90"
+        },
+        {
+          "name": "Kartoffel-Ananas-Curry mit Rindfleisch, Erdnüssen und Reis",
+          "preis": "€ 6,95/7,65/8,35"
+        },
+        {
+          "name": "Flammkuchen mit Speck",
+          "preis": "€ 4,95/5,45/5,95"
         }
       ],
       "Essen": [
         {
-          "name": "Seelachsfilet Lemon-Pepper an Curry-Mango-Sauce",
-          "preis": "€ 3,25/6,50/7,50"
-        },
-        {
-          "name": "Drei gefüllte Maultaschen an Champignonsauce",
+          "name": "Zwei gebackene Falafel-Bagel an Kokos-Mango-Sauce",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Spiralnudeln mit Getreidebolognese und frischem Rosmarin",
+          "name": "Kartoffelgulasch mit Paprika und frischer Blattpetersilie",
+          "preis": "€ 1,75/3,50/4,05"
+        },
+        {
+          "name": "Porridge mit Mandeln, Rosinen und Äpfeln",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
-    },
+    }
+  },
+  "TU Hardenbergstraße": {
     "2026-03-10": {
       "Aktionen": [
         {
@@ -1479,11 +1423,11 @@
       ],
       "Essen": [
         {
-          "name": "Edamame Bratling an Minz Dip",
+          "name": "6 Weizeneiweißbällchen an Tomaten-Zucchini-Sauce",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "6 Weizeneiweißbällchen an Tomaten-Zucchini-Sauce",
+          "name": "Edamame Bratling an Minz Dip",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
@@ -1634,6 +1578,32 @@
         }
       ]
     },
+    "2026-03-21": {
+      "Aktionen": [
+        {
+          "name": "Hartkäse gerieben",
+          "preis": "€ 0,75/0,85/0,90"
+        },
+        {
+          "name": "Tom Kha - Thailändische Kokossuppe mit Reis und Sojastreifen",
+          "preis": "€ 4,95/5,45/5,95"
+        }
+      ],
+      "Essen": [
+        {
+          "name": "Gebackenes Seelachsfilet in Knusperpanade an Remouladensauce",
+          "preis": "€ 2,65/5,30/6,10"
+        },
+        {
+          "name": "Vegane Frühlingsrolle an Sweet-Chili-Dip",
+          "preis": "€ 1,95/3,90/4,50"
+        },
+        {
+          "name": "Kräuterquark mit Leinöl und Dampfkartoffeln",
+          "preis": "€ 1,75/3,50/4,05"
+        }
+      ]
+    },
     "2026-03-24": {
       "Aktionen": [
         {
@@ -1655,11 +1625,11 @@
       ],
       "Essen": [
         {
-          "name": "Gebackenes Sellerieschnitzel an Sesam-Kreuzkümmel-Sauce",
+          "name": "3 Grünkohl-Hanf-Bällchen an Kokos-Curry-Sauce",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "3 Grünkohl-Hanf-Bällchen an Kokos-Curry-Sauce",
+          "name": "Gebackenes Sellerieschnitzel an Sesam-Kreuzkümmel-Sauce",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
@@ -1779,11 +1749,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
@@ -1807,6 +1777,28 @@
         {
           "name": "1/2 Sahniger Milchreis mit Zimt, Zucker und Waldbeerensauce",
           "preis": "€ 1,10/2,20/2,55"
+        }
+      ]
+    },
+    "2026-03-28": {
+      "Aktionen": [
+        {
+          "name": "Tom Kha - Thailändische Kokossuppe mit Reis und Sojastreifen",
+          "preis": "€ 4,95/5,45/5,95"
+        }
+      ],
+      "Essen": [
+        {
+          "name": "Gebackenes Schellfischfilet an Dijon-Senfsauce",
+          "preis": "€ 3,45/6,90/7,95"
+        },
+        {
+          "name": "Zwei gebackene Kartoffeltaschen mit Frischkäsefüllung an Basilikum-Quark-Dip",
+          "preis": "€ 2,15/4,30/4,95"
+        },
+        {
+          "name": "Polenta mit Zucchini-Kräuter-Ragout",
+          "preis": "€ 1,75/3,50/4,05"
         }
       ]
     },
@@ -1871,11 +1863,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
