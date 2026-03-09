@@ -1,6 +1,6 @@
 {
   "HU Nord": {
-    "2026-03-08": {
+    "2026-03-09": {
       "Aktionen": [
         {
           "name": "Dönerteller mit Pommes, Salat und Kalbsfleisch",
@@ -318,6 +318,40 @@
         }
       ]
     },
+    "2026-03-21": {
+      "Aktionen": [
+        {
+          "name": "Hausgemachte Vollkorn-Pasta mit Blumenkohlsauce, frischen Tomaten und gerösteten Haselnüssen",
+          "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Würzige Sojastreifen mit Schluppen, Champignons und Basmatireis",
+          "preis": "€ 6,95/7,65/8,35"
+        }
+      ],
+      "Essen": [
+        {
+          "name": "Bulgur-Gemüse-Pilaw mit Tahin-Dip und Sojastreifen",
+          "preis": "€ 2,75/5,50/6,35"
+        },
+        {
+          "name": "Gebackenes Seelachsfilet in Knusperpanade an Remouladensauce",
+          "preis": "€ 2,65/5,30/6,10"
+        },
+        {
+          "name": "Vegane Frühlingsrolle an Sweet-Chili-Dip",
+          "preis": "€ 1,95/3,90/4,50"
+        },
+        {
+          "name": "Kichererbsen-Gemüse-Ragout mit Buchweizen",
+          "preis": "€ 1,75/3,50/4,05"
+        },
+        {
+          "name": "Grießbrei mit Zucker, Zimt und Fruchtsauce",
+          "preis": "€ 1,75/3,50/4,05"
+        }
+      ]
+    },
     "2026-03-24": {
       "Aktionen": [
         {
@@ -566,7 +600,7 @@
     }
   },
   "HU Süd": {
-    "2026-03-09": {
+    "2026-03-10": {
       "Aktionen": [
         {
           "name": "Pommes Steakhouse Fritten",
@@ -599,11 +633,11 @@
           "preis": "€ 2,45/4,90/5,65"
         },
         {
-          "name": "Zwei Polenta-Spinat-Taschen an fruchtiger Soja-Curry-Sauce mit Ingwer",
+          "name": "6 Linsen-Hirse-Bällchen an Waldpilzsauce",
           "preis": "€ 2,15/4,30/4,95"
         },
         {
-          "name": "6 Linsen-Hirse-Bällchen an Waldpilzsauce",
+          "name": "Zwei Polenta-Spinat-Taschen an fruchtiger Soja-Curry-Sauce mit Ingwer",
           "preis": "€ 2,15/4,30/4,95"
         },
         {
@@ -632,7 +666,7 @@
         }
       ]
     },
-    "2026-03-10": {
+    "2026-03-11": {
       "Aktionen": [
         {
           "name": "Pommes Steakhouse Fritten",
@@ -678,7 +712,7 @@
         }
       ]
     },
-    "2026-03-11": {
+    "2026-03-12": {
       "Aktionen": [
         {
           "name": "Pommes Steakhouse Fritten",
@@ -720,7 +754,7 @@
         }
       ]
     },
-    "2026-03-12": {
+    "2026-03-13": {
       "Aktionen": [
         {
           "name": "Pommes Steakhouse Fritten",
@@ -762,45 +796,7 @@
         }
       ]
     },
-    "2026-03-13": {
-      "Aktionen": [
-        {
-          "name": "Penne rigate mit Karotten-Sellerie-Sauce, frischer Petersilie und gerösteten Walnüsse",
-          "preis": "€ 2,95/3,25/3,55"
-        },
-        {
-          "name": "Wokgemüse mit Tofu, Mango-Sauce und Reis",
-          "preis": "€ 5,95/6,55/7,15"
-        },
-        {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
-          "preis": "€ 3,95/4,35/4,75"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Pfannenfrisches Rührei",
-          "preis": "€ 2,65/5,30/6,10"
-        },
-        {
-          "name": "Gebackenes Schwarzwurzel-Gemüse-Filet an Kräuterremoulade",
-          "preis": "€ 2,45/4,90/5,65"
-        },
-        {
-          "name": "Griechischer Gemüseeintopf mit Auberginen, Tomaten, Oliven, Oregano",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Vier Eierpfannkuchen mit Apfelmus",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Schrippe hell",
-          "preis": "€ 0,30/0,35/0,40"
-        }
-      ]
-    },
-    "2026-03-16": {
+    "2026-03-17": {
       "Aktionen": [
         {
           "name": "Pommes Steakhouse Fritten",
@@ -842,7 +838,7 @@
         }
       ]
     },
-    "2026-03-17": {
+    "2026-03-18": {
       "Aktionen": [
         {
           "name": "Pommes Steakhouse Fritten",
@@ -880,7 +876,7 @@
         }
       ]
     },
-    "2026-03-18": {
+    "2026-03-19": {
       "Aktionen": [
         {
           "name": "Pommes Steakhouse Fritten",
@@ -922,7 +918,7 @@
         }
       ]
     },
-    "2026-03-19": {
+    "2026-03-20": {
       "Aktionen": [
         {
           "name": "Pommes Steakhouse Fritten",
@@ -957,40 +953,6 @@
         {
           "name": "Schusterjunge",
           "preis": "€ 0,55/0,60/0,65"
-        }
-      ]
-    },
-    "2026-03-20": {
-      "Aktionen": [
-        {
-          "name": "Penne rigate mit Champignonsauce und frischer Petersilie",
-          "preis": "€ 2,95/3,25/3,55"
-        },
-        {
-          "name": "Wokgemüse mit Tofu, Mango-Sauce und Reis",
-          "preis": "€ 5,95/6,55/7,15"
-        },
-        {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
-          "preis": "€ 3,95/4,35/4,75"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Vegane Frühlingsrolle an Sweet-Chili-Dip",
-          "preis": "€ 1,95/3,90/4,50"
-        },
-        {
-          "name": "Gemüseeintopf Indischer Art mit Kichererbsen",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Vier Eierpfannkuchen mit Apfelmus",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Schrippe hell",
-          "preis": "€ 0,30/0,35/0,40"
         }
       ]
     },
@@ -1438,32 +1400,6 @@
         }
       ]
     },
-    "2026-03-14": {
-      "Aktionen": [
-        {
-          "name": "Hartkäse gerieben",
-          "preis": "€ 0,75/0,85/0,90"
-        },
-        {
-          "name": "Tom Kha - Thailändische Kokossuppe mit Reis und Sojastreifen",
-          "preis": "€ 4,95/5,45/5,95"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Gebackenes Seelachsfilet in Reispanade an bunter Sojasauce",
-          "preis": "€ 3,25/6,50/7,50"
-        },
-        {
-          "name": "Pfannenfrisches Rührei mit Kräutern",
-          "preis": "€ 2,65/5,30/6,10"
-        },
-        {
-          "name": "Spaghetti Arrabbiata",
-          "preis": "€ 1,75/3,50/4,05"
-        }
-      ]
-    },
     "2026-03-17": {
       "Aktionen": [
         {
@@ -1525,11 +1461,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
@@ -1705,11 +1641,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
