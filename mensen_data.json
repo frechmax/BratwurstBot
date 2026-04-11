@@ -1,35 +1,5 @@
 {
   "HU Nord": {
-    "2026-04-10": {
-      "Aktionen": [
-        {
-          "name": "Hausgemachte Pasta mit Blumenkohlsauce, frischen Tomaten und gerösteten Haselnüssen",
-          "preis": "€ 2,95/3,25/3,55"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Weiße Bohnen-Zartweizen-Pfanne mit Champignon, SPinat und getrockneten Tomaten",
-          "preis": "€ 2,75/5,50/6,35"
-        },
-        {
-          "name": "Gebackenes Seelachsfilet in Kartoffelpanade an Joghurt-Bärlauch-Dip",
-          "preis": "€ 2,15/4,30/4,95"
-        },
-        {
-          "name": "Zwei Polenta-Spinat-Taschen an Kurkumasauce",
-          "preis": "€ 2,15/4,30/4,95"
-        },
-        {
-          "name": "Quark mit Oliven, Bärlauch und Dampfkartoffeln",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "1/2 Vanillegrieß mit Heidelbeeren, Zucker und Zimt",
-          "preis": "€ 1,10/2,20/2,55"
-        }
-      ]
-    },
     "2026-04-14": {
       "Aktionen": [
         {
@@ -412,6 +382,40 @@
         }
       ]
     },
+    "2026-05-04": {
+      "Aktionen": [
+        {
+          "name": "Dönerteller mit Pommes, Salat und Kalbsfleisch",
+          "preis": "€ 6,45/7,10/7,75"
+        },
+        {
+          "name": "Hausgemachte Tomaten-Pasta mit Rucolasauce, getrockneten Tomaten und gerösteten Walnüssen",
+          "preis": "€ 2,95/3,25/3,55"
+        }
+      ],
+      "Essen": [
+        {
+          "name": "Quinoa-Gemüse-Pfanne mit roten Bohnen und Kräuter-Dip",
+          "preis": "€ 2,75/5,50/6,35"
+        },
+        {
+          "name": "3 Grünkohl-Hanf-Bällchen an Kokos-Curry-Sauce",
+          "preis": "€ 1,75/3,50/4,05"
+        },
+        {
+          "name": "Gebackenes Sellerieschnitzel an Sesamsauce",
+          "preis": "€ 1,75/3,50/4,05"
+        },
+        {
+          "name": "Tessiner Pilzrisotto mit Petersilie",
+          "preis": "€ 1,75/3,50/4,05"
+        },
+        {
+          "name": "Grießbrei mit Zucker, Zimt und Apfelmus",
+          "preis": "€ 1,75/3,50/4,05"
+        }
+      ]
+    },
     "2026-05-05": {
       "Aktionen": [
         {
@@ -429,11 +433,11 @@
           "preis": "€ 2,75/5,50/6,35"
         },
         {
-          "name": "Gebackenes Sellerieschnitzel an Sesamsauce",
+          "name": "3 Grünkohl-Hanf-Bällchen an Kokos-Curry-Sauce",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "3 Grünkohl-Hanf-Bällchen an Kokos-Curry-Sauce",
+          "name": "Gebackenes Sellerieschnitzel an Sesamsauce",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
@@ -701,8 +705,8 @@
           "preis": "€ 2,45/4,90/5,65"
         },
         {
-          "name": "Sojageschnetzeltes süß-sauer mit Bambussprossen, roter Paprika und Ananas",
-          "preis": "€ 1,55/3,10/3,55"
+          "name": "Hackrolle aus Weizeneiweiß mit Tomate gefüllt an Paprikasauce",
+          "preis": "€ 2,15/4,30/4,95"
         },
         {
           "name": "Kartoffeltopf mit Pilzen, roten Bohnen",
@@ -710,6 +714,40 @@
         },
         {
           "name": "Vanillegrießbrei mit Zucker, Zimt und Rhabarber-Himbeer-Sauce",
+          "preis": "€ 1,75/3,50/4,05"
+        }
+      ]
+    },
+    "2026-04-18": {
+      "Aktionen": [
+        {
+          "name": "Penne rigate mit Paprikasauce und grüner Pepperoni",
+          "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Wokgemüse mit Tofu, Mango-Sauce und Reis",
+          "preis": "€ 5,95/6,55/7,15"
+        },
+        {
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "preis": "€ 3,95/4,35/4,75"
+        }
+      ],
+      "Essen": [
+        {
+          "name": "Überbackene Gemüseschnitte Bordelaise an Remouladensauce",
+          "preis": "€ 3,25/6,50/7,50"
+        },
+        {
+          "name": "Drei gefüllte Maultaschen an Champignonsauce",
+          "preis": "€ 2,15/4,30/4,95"
+        },
+        {
+          "name": "Gemüseeintopf Indischer Art mit Kichererbsen",
+          "preis": "€ 1,75/3,50/4,05"
+        },
+        {
+          "name": "Vier Eierpfannkuchen mit Apfelmus",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
@@ -935,6 +973,10 @@
           "preis": "€ 2,95/3,25/3,55"
         },
         {
+          "name": "Wokgemüse mit Tofu,Linsen, Erdnusssauce und Reis",
+          "preis": "€ 5,95/6,55/7,15"
+        },
+        {
           "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 3,95/4,35/4,75"
         }
@@ -996,10 +1038,10 @@
         }
       ]
     },
-    "2026-05-01": {
+    "2026-05-05": {
       "Aktionen": [
         {
-          "name": "Pommes Steakhouse Fritten",
+          "name": "Pommes frites",
           "preis": "€ 1,45/1,60/1,75"
         },
         {
@@ -1011,41 +1053,15 @@
           "preis": "€ 2,95/3,25/3,55"
         },
         {
-          "name": "Wokgemüse mit Pilzen, Zitronen-Sesamsauce und Reis Grünkernreis",
-          "preis": "€ 6,95/7,65/8,35"
-        },
-        {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
-          "preis": "€ 3,95/4,35/4,75"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Zwei Sesam-Karotten-Sticks an Curry-Mango-Sauce",
-          "preis": "€ 2,45/4,90/5,65"
-        },
-        {
-          "name": "Berliner Kartoffelsuppe mit Möhren und Knollensellerie",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Vier Eierpfannkuchen mit Apfelmus",
-          "preis": "€ 1,75/3,50/4,05"
-        }
-      ]
-    },
-    "2026-05-05": {
-      "Aktionen": [
-        {
-          "name": "Hausgemachte Tomaten-Pasta mit Rucolasauce, getrockneten Tomaten und gerösteten Walnüssen",
-          "preis": "€ 2,95/3,25/3,55"
-        },
-        {
           "name": "Flammkuchen mit geräuchertem Tofu und Zwiebeln",
           "preis": "€ 5,95/6,55/7,15"
         },
         {
           "name": "Gemüse aus dem Wok mit Bambusprossen, Chinakohl und Glasnudeln",
+          "preis": "€ 5,95/6,55/7,15"
+        },
+        {
+          "name": "Wokgemüse mit roten Linsen, Süß-Sauer Sauce und Reis",
           "preis": "€ 5,95/6,55/7,15"
         }
       ],
@@ -1056,10 +1072,6 @@
         },
         {
           "name": "Gebackenes Sellerieschnitzel an Sesamsauce",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Tessiner Pilzrisotto mit Petersilie",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
@@ -1075,8 +1087,16 @@
           "preis": "€ 1,45/1,60/1,75"
         },
         {
-          "name": "Hausgemachte Pasta mit Tomatensauce, Aubergine und Basilikum",
+          "name": "Knoblauchmayonnaise Tomatenketchup",
+          "preis": "€ 0,15/0,20/0,25"
+        },
+        {
+          "name": "Penne rigate mit Tomatensauce, Aubergine und Basilikum",
           "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Wokgemüse mit Tofu,Linsen, Erdnusssauce und Reis",
+          "preis": "€ 5,95/6,55/7,15"
         },
         {
           "name": "Pizza Margherita mit Basilikum",
@@ -1105,7 +1125,15 @@
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Hausgemachte Pasta mit Olivenöl, Knoblauch, Chili und Petersilie",
+          "name": "Pommes frites",
+          "preis": "€ 1,45/1,60/1,75"
+        },
+        {
+          "name": "Knoblauchmayonnaise Tomatenketchup",
+          "preis": "€ 0,15/0,20/0,25"
+        },
+        {
+          "name": "Penne rigate mit Olivenöl, Knoblauch, Chili und Petersilie",
           "preis": "€ 2,95/3,25/3,55"
         },
         {
@@ -1115,13 +1143,13 @@
         {
           "name": "Buntes Wokgemüse mit Fenchel, Staudensellerie und Chiasamen und gelbem Reis",
           "preis": "€ 5,95/6,55/7,15"
+        },
+        {
+          "name": "Wokgemüse mit Bohnenkerne, Thai-Curry Sauce und Reis",
+          "preis": "€ 5,95/6,55/7,15"
         }
       ],
       "Essen": [
-        {
-          "name": "Buchweizen-Linsen-Pfanne mit Rosinen und Erdnusssauce",
-          "preis": "€ 2,75/5,50/6,35"
-        },
         {
           "name": "Gemüseragout mit Erbsen Chunks, Kurkuma und Ingwer",
           "preis": "€ 2,45/4,90/5,65"
@@ -1143,8 +1171,20 @@
           "preis": "€ 1,45/1,60/1,75"
         },
         {
-          "name": "Hausgemachte Vollkorn-Pasta mit Champignonsauce und Petersilie",
+          "name": "Pommes frites",
+          "preis": "€ 1,45/1,60/1,75"
+        },
+        {
+          "name": "Knoblauchmayonnaise Tomatenketchup",
+          "preis": "€ 0,15/0,20/0,25"
+        },
+        {
+          "name": "Penne rigate mit Champignonsauce und Petersilie",
           "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Wokgemüse mit Pilzen, Zitronen-Sesamsauce und Reis Grünkernreis",
+          "preis": "€ 6,95/7,65/8,35"
         },
         {
           "name": "Flammkuchen mit Speck",
@@ -1162,32 +1202,6 @@
         },
         {
           "name": "Sahniger Milchreis mit Zimt, Zucker und Heidelbeersauce",
-          "preis": "€ 1,75/3,50/4,05"
-        }
-      ]
-    },
-    "2026-05-09": {
-      "Aktionen": [
-        {
-          "name": "Spätzlepfanne mit Pilzen und Petersilie",
-          "preis": "€ 4,95/5,45/5,95"
-        },
-        {
-          "name": "Hausgemachte Pasta mit Paprikasauce und grüner Pepperoni",
-          "preis": "€ 2,95/3,25/3,55"
-        },
-        {
-          "name": "Pizza mit Tomate, Zucchini und Rucola",
-          "preis": "€ 4,95/5,45/5,95"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Zwei gebackene Kartoffeltaschen mit Frischkäsefüllung an Basilikum-Quark-Dip",
-          "preis": "€ 1,95/3,90/4,50"
-        },
-        {
-          "name": "Polenta mit Zucchini-Kräuter-Ragout",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
@@ -1215,11 +1229,11 @@
       ],
       "Essen": [
         {
-          "name": "Kürbis-Chiasamen-Bratling an Spinatsauce",
+          "name": "3 Gemüsebällchen in Kichererbsen-Kokos-Sauce",
           "preis": "€ 1,95/3,90/4,50"
         },
         {
-          "name": "3 Gemüsebällchen in Kichererbsen-Kokos-Sauce",
+          "name": "Kürbis-Chiasamen-Bratling an Spinatsauce",
           "preis": "€ 1,95/3,90/4,50"
         },
         {
@@ -1339,11 +1353,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
@@ -1431,11 +1445,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
@@ -1511,11 +1525,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
@@ -1563,11 +1577,11 @@
       ],
       "Essen": [
         {
-          "name": "6 Weizeneiweißbällchen an Tomaten-Zucchini-Sauce",
+          "name": "Edamame Bratling an Minz Dip",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Edamame Bratling an Minz Dip",
+          "name": "6 Weizeneiweißbällchen an Tomaten-Zucchini-Sauce",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
@@ -1733,11 +1747,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
@@ -1817,11 +1831,11 @@
           "preis": "€ 0,75/0,85/0,90"
         },
         {
-          "name": "Flammkuchen mit Speck",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Flammkuchen mit Speck",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
