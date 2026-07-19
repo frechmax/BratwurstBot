@@ -1,31 +1,77 @@
 {
   "HU Nord": {
-    "2026-07-21": {
+    "2026-07-20": {
       "Aktionen": [
         {
-          "name": "Loaded Fries - Pommes mit Chili sin Carne",
-          "preis": "€ 3,95/4,35/4,75"
+          "name": "Dönerteller mit Pommes, Salat und Kalbsfleisch",
+          "preis": "€ 6,45/7,10/7,75"
         },
         {
-          "name": "Hausgemachte Vollkorn-Pasta mit Linsenbolognese und Petersilie",
+          "name": "Hausgemachte Tomaten-Pasta mit Spinatsauce und gerösteten Walnüssen",
           "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Steakhouse Fries",
+          "preis": "€ 1,45/1,60/1,75"
         }
       ],
       "Essen": [
         {
-          "name": "Brokkoli-Nudel-Pfanne mit Tomaten und Petersilie",
-          "preis": "€ 2,75/5,50/6,35"
+          "name": "Dinkel-Kartoffel-Pfanne mit Paprika, Champignons und Cashewkernen",
+          "preis": "€ 2,95/5,90/6,80"
         },
         {
-          "name": "Kohlroulade mit Gemüsefüllung an Kräutersauce",
+          "name": "6 Weizeneiweißbällchen an Tomaten-Zucchini-Sauce",
           "preis": "€ 1,95/3,90/4,50"
         },
         {
-          "name": "Chili con Soja",
+          "name": "Edamame Bratling an Minz Dip",
+          "preis": "€ 1,95/3,90/4,50"
+        },
+        {
+          "name": "Reispfanne mit Zucchini, Paprika und Kurkuma",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Germknödel mit Pflaumenmusfüllung, Mohnzucker und Vanillesauce",
+          "name": "Soja-Milch-Reis mit Zucker, Zimt und Sauerkirschsauce",
+          "preis": "€ 1,75/3,50/4,05"
+        }
+      ]
+    },
+    "2026-07-21": {
+      "Aktionen": [
+        {
+          "name": "Dönerteller mit Pommes, Salat und Kalbsfleisch",
+          "preis": "€ 6,45/7,10/7,75"
+        },
+        {
+          "name": "Hausgemachte Tomaten-Pasta mit Spinatsauce und gerösteten Walnüssen",
+          "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Steakhouse Fries",
+          "preis": "€ 1,45/1,60/1,75"
+        }
+      ],
+      "Essen": [
+        {
+          "name": "Dinkel-Kartoffel-Pfanne mit Paprika, Champignons und Cashewkernen",
+          "preis": "€ 2,95/5,90/6,80"
+        },
+        {
+          "name": "6 Weizeneiweißbällchen an Tomaten-Zucchini-Sauce",
+          "preis": "€ 1,95/3,90/4,50"
+        },
+        {
+          "name": "Edamame Bratling an Minz Dip",
+          "preis": "€ 1,95/3,90/4,50"
+        },
+        {
+          "name": "Reispfanne mit Zucchini, Paprika und Kurkuma",
+          "preis": "€ 1,75/3,50/4,05"
+        },
+        {
+          "name": "Soja-Milch-Reis mit Zucker, Zimt und Sauerkirschsauce",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
@@ -63,33 +109,37 @@
     "2026-07-23": {
       "Aktionen": [
         {
-          "name": "Zwei Hausgemachte Kartoffelpuffer, Apfelmus",
-          "preis": "€ 3,95/4,35/4,75"
+          "name": "Dönerteller mit Pommes, Salat und Kalbsfleisch",
+          "preis": "€ 6,45/7,10/7,75"
         },
         {
-          "name": "Hausgemachte Pasta mit Sojabolognese",
+          "name": "Hausgemachte Pasta mit Tomatensauce und Tofu",
           "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Steakhouse Fries",
+          "preis": "€ 1,45/1,60/1,75"
         }
       ],
       "Essen": [
         {
-          "name": "Eine Scheibe Rinderschmorbraten an Rahmsauce mit Gemüsestreifen",
-          "preis": "€ 4,75/9,50/10,95"
+          "name": "Hafer-Kichererbsen-Pfanne mit Blumenkohl und Blattpetersilie",
+          "preis": "€ 2,75/5,50/6,35"
         },
         {
-          "name": "Zwei Sesam-Karotten-Sticks an Curry-Mango-Sauce",
-          "preis": "€ 2,45/4,90/5,65"
+          "name": "Sojagyros mit Weißkohl, Zwiebeln, Paprika mit veganem Tzatziki",
+          "preis": "€ 2,15/4,30/4,95"
         },
         {
-          "name": "Backkartoffeln mit Tomaten, Rucola und Basilikum-Dip",
-          "preis": "€ 2,10/4,20/4,85"
+          "name": "Frikadelle aus Weizeneiweiß an Senfsauce mit Majoran",
+          "preis": "€ 1,95/3,90/4,50"
         },
         {
-          "name": "Kartoffel-Gemüse-Eintopf mit Petersilie",
+          "name": "Spaghetti Arrabbiata",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Vanillegrieß mit Heidelbeeren, Zucker und Zimt",
+          "name": "Vier Eierpfannkuchen mit Apfelmus",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
@@ -131,37 +181,29 @@
     "2026-07-28": {
       "Aktionen": [
         {
-          "name": "Dönerteller mit Pommes, Salat und Kalbsfleisch",
-          "preis": "€ 6,45/7,10/7,75"
+          "name": "Loaded Fries - Pommes mit Chili sin Carne",
+          "preis": "€ 3,95/4,35/4,75"
         },
         {
-          "name": "Hausgemachte Tomaten-Pasta mit Rucolasauce, getrockneten Tomaten und gerösteten Walnüssen",
+          "name": "Hausgemachte Pasta mit Tomatensauce, Aubergine und Basilikum",
           "preis": "€ 2,95/3,25/3,55"
-        },
-        {
-          "name": "Steakhouse Fries",
-          "preis": "€ 1,45/1,60/1,75"
         }
       ],
       "Essen": [
         {
-          "name": "Quinoa-Gemüse-Pfanne mit roten Bohnen und Kräuter-Dip",
-          "preis": "€ 2,95/5,90/6,80"
+          "name": "Rindergulasch mit Paprika",
+          "preis": "€ 4,25/8,50/9,80"
         },
         {
-          "name": "4 Grünkohl-Hanf-Bällchen an Kokos-Curry-Sauce",
-          "preis": "€ 2,45/4,90/5,65"
+          "name": "Glasnudeln mit Gemüse, süß-scharfem Chinakohl und Sesam",
+          "preis": "€ 2,10/4,20/4,85"
         },
         {
-          "name": "Gebackenes Sellerieschnitzel an Sesamsauce",
+          "name": "Blumenkohl-Curry-Eintopf mit Tomaten, Kichererbsen und Koriander",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Pilzrisotto mit Petersilie",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Grießbrei mit Zucker, Zimt und Apfelmus",
+          "name": "Germknödel mit Pflaumenmusfüllung, Mohnzucker und Vanillesauce",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
@@ -381,49 +423,32 @@
     "2026-08-07": {
       "Aktionen": [
         {
-          "name": "Zwei Hausgemachte Kartoffelpuffer, Apfelmus",
-          "preis": "€ 3,95/4,35/4,75"
-        },
-        {
-          "name": "Hausgemachte Pasta mit Tomatensauce, Zucchini und Oregano",
+          "name": "Hausgemachte Dinkel-Pasta mit Getreidebolognese und Basilikum",
           "preis": "€ 2,95/3,25/3,55"
         }
       ],
       "Essen": [
         {
-          "name": "Kartoffelpfanne mit Spinat, Champignons, Karotten und Sesam",
+          "name": "Seelachs in Tomaten-Kräuter-Marinade an Zitronen-Oliven Sauce",
+          "preis": "€ 3,25/6,50/7,50"
+        },
+        {
+          "name": "Pilz-Roggen-Pfanne mit marinierten Sojawürfeln und Erdnüssen",
           "preis": "€ 2,75/5,50/6,35"
         },
         {
-          "name": "Marinierter Schweinekamm an Rosmarinsauce",
+          "name": "Brew Bites in Tomaten-Paprika-Sauce",
           "preis": "€ 2,15/4,30/4,95"
         },
         {
-          "name": "Zwei gebackene Falafel-Bagel an Kokos-Mango-Sauce",
+          "name": "Schnittlauchquark mit Dampfkartoffeln",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Paprika-Gemüsegulasch mit Blattpetersilie",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Vanillegrieß mit Heidelbeeren, Zucker und Zimt",
+          "name": "Soja-Milch-Reis mit Zucker, Zimt und Sauerkirschsauce",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
-    },
-    "2026-08-10": {
-      "Aktionen": [
-        {
-          "name": "Dönerteller mit Pommes, Salat und Kalbsfleisch",
-          "preis": "€ 6,45/7,10/7,75"
-        },
-        {
-          "name": "Steakhouse Fries",
-          "preis": "€ 1,45/1,60/1,75"
-        }
-      ],
-      "Essen": []
     },
     "2026-08-11": {
       "Aktionen": [
@@ -456,44 +481,6 @@
     "2026-08-13": {
       "Aktionen": [
         {
-          "name": "Dönerteller mit Pommes, Salat und Kalbsfleisch",
-          "preis": "€ 6,45/7,10/7,75"
-        },
-        {
-          "name": "Hausgemachte Kurkuma Pasta mit Gemüsesauce, Tomaten und gerösteten Walnüssen",
-          "preis": "€ 2,95/3,25/3,55"
-        },
-        {
-          "name": "Steakhouse Fries",
-          "preis": "€ 1,45/1,60/1,75"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Weiße Bohnen-Hafer-Pfanne mit Champignon und getrockneten Tomaten",
-          "preis": "€ 2,75/5,50/6,35"
-        },
-        {
-          "name": "Erbsen Chunks mit Champignons in Sojarahm",
-          "preis": "€ 2,45/4,90/5,65"
-        },
-        {
-          "name": "Frikadelle aus Weizeneiweiß an Kräuterjus",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Tortellini mit Gemüsesauce und Frühlingslauch",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Vier Eierpfannkuchen mit Apfelmus",
-          "preis": "€ 1,75/3,50/4,05"
-        }
-      ]
-    },
-    "2026-08-14": {
-      "Aktionen": [
-        {
           "name": "Zwei Hausgemachte Kartoffelpuffer, Apfelmus",
           "preis": "€ 3,95/4,35/4,75"
         },
@@ -521,6 +508,28 @@
         },
         {
           "name": "Milchreis mit Rosinen, Mandeln und Kardamom",
+          "preis": "€ 1,75/3,50/4,05"
+        }
+      ]
+    },
+    "2026-08-14": {
+      "Aktionen": [
+        {
+          "name": "Hausgemachte Vollkorn-Pasta mit Blumenkohlsauce, Tomaten und gerösteten Haselnüssen",
+          "preis": "€ 2,95/3,25/3,55"
+        }
+      ],
+      "Essen": [
+        {
+          "name": "Zwei Polenta-Spinat-Taschen an Kurkumasauce",
+          "preis": "€ 2,15/4,30/4,95"
+        },
+        {
+          "name": "Gebackenes Seelachsfilet in Kartoffelpanade an Joghurt-Zitronen-Dip",
+          "preis": "€ 2,15/4,30/4,95"
+        },
+        {
+          "name": "Quark mit Oliven, Kräutern und Dampfkartoffeln",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
@@ -920,11 +929,11 @@
           "preis": "€ 2,95/3,25/3,55"
         },
         {
-          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
+          "name": "Pizza Margherita mit Basilikum",
           "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Pizza Margherita mit Basilikum",
+          "name": "Flammkuchen mit frischen Zwiebeln und Schluppen",
           "preis": "€ 4,95/5,45/5,95"
         }
       ],
@@ -980,11 +989,11 @@
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Auberginen-Reis-Auflauf mit Käse überbacken",
+          "name": "Vier Eierpfannkuchen mit Apfelmus",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Vier Eierpfannkuchen mit Apfelmus",
+          "name": "Auberginen-Reis-Auflauf mit Käse überbacken",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
@@ -1039,7 +1048,7 @@
         }
       ]
     },
-    "2026-08-10": {
+    "2026-08-11": {
       "Aktionen": [
         {
           "name": "Schupfnudelpfanne mit Brokkoli, Karotten und Lauchzwiebeln",
@@ -1069,36 +1078,6 @@
         },
         {
           "name": "Grießbrei mit Zucker, Zimt und geschmorten Rhabarber",
-          "preis": "€ 1,75/3,50/4,05"
-        }
-      ]
-    },
-    "2026-08-11": {
-      "Aktionen": [
-        {
-          "name": "Pommes frites",
-          "preis": "€ 1,45/1,60/1,75"
-        },
-        {
-          "name": "Penne rigate mit Tomatensauce und Tofu",
-          "preis": "€ 2,95/3,25/3,55"
-        },
-        {
-          "name": "Pizza Margherita mit Basilikum",
-          "preis": "€ 4,95/5,45/5,95"
-        }
-      ],
-      "Essen": [
-        {
-          "name": "Vegane Currywurst",
-          "preis": "€ 2,45/4,90/5,65"
-        },
-        {
-          "name": "Feijoada - Bohneneintopf mit Räuchertofu, Sojahack und gelbem Reis",
-          "preis": "€ 1,75/3,50/4,05"
-        },
-        {
-          "name": "Vanillegrießschnitte mit Zucker, Zimt und Erdbeersauce",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
@@ -1136,25 +1115,33 @@
     "2026-08-13": {
       "Aktionen": [
         {
-          "name": "Pommes frites",
-          "preis": "€ 1,45/1,60/1,75"
+          "name": "Gnocchi mit Gemüse in Käsesauce",
+          "preis": "€ 4,95/5,45/5,95"
         },
         {
-          "name": "Penne rigate mit Sojabolognese",
+          "name": "Penne rigate mit Gemüsesauce, Tomaten und gerösteten Walnüssen",
           "preis": "€ 2,95/3,25/3,55"
+        },
+        {
+          "name": "Pizza mit Champignons und roten Zwiebeln",
+          "preis": "€ 5,95/6,55/7,15"
         }
       ],
       "Essen": [
         {
-          "name": "Zwei Spinat-Dinkel-Medaillons an Kräutersauce",
-          "preis": "€ 2,85/5,70/6,55"
+          "name": "Erbsen Chunks mit Champignons in Sojarahm",
+          "preis": "€ 2,45/4,90/5,65"
         },
         {
-          "name": "Kartoffel-Gemüse-Eintopf mit Petersilie",
+          "name": "Frikadelle aus Weizeneiweiß an Kräuterjus",
           "preis": "€ 1,75/3,50/4,05"
         },
         {
-          "name": "Milchreis mit Rosinen, Mandeln und Kardamom",
+          "name": "Tortellini mit Gemüsesauce und Frühlingslauch",
+          "preis": "€ 1,75/3,50/4,05"
+        },
+        {
+          "name": "Süßkartoffelauflauf mit Käse überbacken",
           "preis": "€ 1,75/3,50/4,05"
         }
       ]
